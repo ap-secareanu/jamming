@@ -1,10 +1,20 @@
 import React from 'react';
-import Grid from '@mui/material/Grid';
+import Track from '../Track/Track'
 
 const TracksList = (props) => {
     return (
         <div>
-            <h2>{props.text}</h2>
+            {props.trackList.map(track => {
+               return (
+                    <Track
+                     track={track}
+                     key={track.id}
+                     cover={track.cover}
+                     release={track.release}
+                     album={track.album}
+                    />
+               ) 
+            })} 
         </div>
     )
 };

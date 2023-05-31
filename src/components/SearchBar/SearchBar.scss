@@ -1,0 +1,28 @@
+@import url('../util/util.scss');
+
+.search {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    #search {
+        width: 100%;
+        text-align: left;
+        padding: 20px;
+        background: transparent;
+        font-size: 18px;
+        color: var(--white);
+        font-family: var(--code-pro);
+        border: 0;
+        &:focus-visible {
+            border: 0;
+            outline: none;
+        }
+    }
+    .search_button {
+        background: transparent;
+        border: none;
+        padding: 0 25px;
+    }
+}

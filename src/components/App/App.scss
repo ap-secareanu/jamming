@@ -1,7 +1,7 @@
 #root {
-  background-image: url('../../images/pexels-aleksandar-pasaric-3342739.jpg');
+  background-image: url('../../images/background_photo_desktop.jpg');
   background-size: cover;
-  background-position: bottom;
+  background-position: top;
   position: relative;
   min-height: 100vh;
   overflow-x: hidden;
@@ -28,6 +28,7 @@
 .app_container {
   z-index: 1;
   position: relative;
+  padding: 50px 0;
 }
 
 .App-logo {

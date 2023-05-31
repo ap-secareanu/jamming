@@ -1,0 +1,32 @@
+@import url('../util/util.scss');
+
+.user_profile {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+    .user_name {
+        font-family: var(--poppins);
+        color: var(--white);
+        font-size: 34px;
+        margin: 10px 0;
+    }
+
+    .user_pic {
+        border-radius: 50%;
+        max-width: 200px;
+    }
+
+    .followers_count {
+        font-size: 18px;
+        font-family: var(--code-pro);
+        color: var(--white);
+        margin: 10px 0;
+    }
+}

@@ -1,0 +1,25 @@
+@import url('./SearchResults.scss');
+
+.result_container {
+    color: var(--white);
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    img {
+        max-width: 80px;
+        max-height: 80px;
+    }
+    .texts {
+       padding-left: 25px;
+       h3 {
+        font-family: var(--poppins);
+       }
+       p {
+        font-family: var(--code-pro)
+       }
+    }
+}

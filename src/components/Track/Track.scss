@@ -1,0 +1,31 @@
+@import url('../util/util.scss');
+
+h3, p {
+    display: inline-block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.track {
+    color: var(--white);
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    .cover {
+        max-width: 80px;
+        max-height: 80px;
+    }
+    .details {
+       padding-left: 25px;
+       .song_title {
+        font-family: var(--poppins);
+       }
+       .album {
+        font-family: var(--code-pro)
+       }
+    }
+}
